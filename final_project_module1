@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Registration Form</title>
+
+<body>
+    <h1><u> Registration Form</u></h1>
+
+    <ul>
+        <li>hi</li>
+        <li>please enter the details about yourself</li>
+    </ul>
+
+    <img src="https://i.redd.it/irdbtjx0tghb1.jpg" width="100" height="100">
+    <br>
+    <br>
+    <center>
+        <form>
+            <fieldset>
+                <legend><b>User Information:</b> </legend>
+
+                <label><u>Full Name</u>: </label><br>
+                <input type="text"><br><br>
+
+                <label><u>Address</u>: </label><br>
+                <input type="text"><br><br>
+
+                <label><u>Date of Birth</u>: </label><br>
+                <input type="date"><br><br>
+
+                <label><u>Contact Number</u>: </label><br>
+                <input type="number"><br><br>
+
+                <label><u>Email</u>: </label><br>
+                <input type="text"><br><br>
+
+                <label><u>Occupation</u>: </label><br>
+                <input type="text"><br><br><br>
+
+
+                <label><u>Age</u>: </label><br>
+                <input type="number"><br><br>
+
+                <label><u>Height</u>: </label><br>
+                <input type="text"><br><br>
+
+                <label><u>Weight</u>: </label><br>
+                <input type="text"><br><br>
+
+                <label><u>Gender</u>: </label><br>
+                <input type="radio">Girl<br>
+                <input type="radio">Boy<br>
+                <input type="radio">Other<br><br>
+                </ul>
+
+                <label><u>Religion</u>: </label><br>
+                <select>
+                    <option>Christianity</option>
+                    <option>Islam</option>
+                    <option>Hinduism</option>
+                    <option>Buddhism</option>
+                    <option>Judaism</option>
+                    <option>Jainism</option>
+                    <option>Sikhism</option>
+                    <option>Other</option>
+                    <option>N/A</option>
+                </select>
+                <br><br>
+
+                <label><u>Nationality</u>: </label><br>
+                <input type="text"><br><br>
+
+                <textarea rows="5" cols="50">Enter questions/suggestions here...</textarea><br><br>
+
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>
